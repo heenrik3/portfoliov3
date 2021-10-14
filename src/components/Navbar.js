@@ -76,9 +76,9 @@ function Navbar() {
             <h3>contato</h3>
           </Link>
         </div>
-      </div>
 
-      <i className="theme-switcher fas fa-moon" onClick={themeSwitch}></i>
+        <i className="navbar__item theme-switcher fas fa-moon" onClick={themeSwitch}></i>
+      </div>
     </nav>
   )
 }
