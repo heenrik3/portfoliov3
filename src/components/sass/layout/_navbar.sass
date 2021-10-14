@@ -39,6 +39,9 @@
         margin-top: 0
         margin-left: 2rem
 
+      @include respond(phone)
+        margin-left: .5rem
+
   &__item
     padding: .25rem
     border-radius: 1rem
@@ -74,6 +77,10 @@
     cursor: pointer
 
     margin-top: 3rem
+
     @include respond(tab-land)
       margin-top: 0
       margin-left: 2rem
+
+    @include respond(phone)
+      margin-left: 1rem
