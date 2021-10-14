@@ -1,0 +1,22 @@
+@keyframes pageswitch
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+.page
+  padding: 15rem
+  background-color: inherit
+  flex-grow: 1
+
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  animation: pageswitch 1s
+
+  @include respond(tab-land)
+    padding: 8rem
+
+  @include respond(phone)
+    padding: 8rem 1rem

@@ -1,0 +1,15 @@
+.works
+  @include respond(tab-land)
+    height: 120vh
+
+.cards-container
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-template-rows: auto
+  grid-gap: 5rem
+
+  @include respond(tab-land)
+    grid-template-columns: repeat(1, 1fr)
+
+h3
+  margin-top: 5rem

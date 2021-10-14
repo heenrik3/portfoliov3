@@ -1,0 +1,61 @@
+@import "components/sass/main"
+
+.App
+  height: 100vh
+  background-color: $secondary-color
+
+  display: flex
+  align-items: stretch
+  justify-content: center
+
+  & *
+    transition: background-color .2s
+
+.dark
+  ::selection
+    color: $primary-color
+    background-color: $secondary-color
+
+  color: $secondary-color
+  background-color: $primary-color
+
+  .navbar
+    @include lightboxshadow
+    background-color: $primary-color
+
+    &__item
+      &--active
+        .icon
+          color: $primary-color
+          background-color: $secondary-color
+        h3
+          color: $secondary-color
+
+  .section_descriptor
+    ::selection
+      color: $secondary-color
+      background-color: $primary-color
+
+    color: $primary-color
+    background-color: $secondary-color
+
+  .home
+    .round-picture
+      border: 5px solid $secondary-color
+
+    .icon
+      color: $primary-color
+      background-color: $secondary-color
+
+  .works
+    .card
+      color: $secondary-color
+      background-color: $primary-color
+      @include lightboxshadow
+
+a
+  width: 100%
+  height: 100%
+  display: inline-block
+  text-decoration: none
+  color: inherit

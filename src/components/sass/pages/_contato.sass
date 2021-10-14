@@ -1,0 +1,26 @@
+.contato-container
+  display: flex
+  flex-grow: 1
+  flex-direction: column
+  align-self: stretch
+  align-items: center
+  justify-content: space-around
+
+.info-container
+  width: 70rem
+
+  display: flex
+  @include respond(tab-land)
+    width: 60rem
+
+  @include respond(tab-port)
+    width: 55rem
+
+  @include respond(phone)
+    width: 40rem
+
+  & .section_descriptor
+    margin-bottom: 0
+
+    &--2
+      flex-grow: 1

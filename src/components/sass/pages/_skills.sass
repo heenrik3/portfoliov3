@@ -1,0 +1,29 @@
+.skills
+  @include respond(tab-land)
+    height: 120vh
+    
+.skills-container
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-rows: repeat(2, 1fr)
+  grid-gap: 5rem
+
+  @include respond(tab-land)
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: auto
+
+  @include respond(tab-port)
+    grid-template-columns: repeat(2, 1fr)
+
+.skill
+  display: flex
+  flex-direction: column
+  align-items: center
+  font-weight: 700
+
+  &__icon
+    font-size: 12rem
+    margin-bottom: 3rem
+
+  &__title
+    font-size: 2rem
