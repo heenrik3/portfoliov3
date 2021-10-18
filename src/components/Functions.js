@@ -3,7 +3,7 @@ const external = (e) => {
     github: 'https://github.com/heenrik3',
     linkedin: 'https://www.linkedin.com/in/henrik3-dev/',
     vyag: 'https://vyag.vercel.app/',
-    climacheca: 'https://climacheca.000webhostapp.com/'
+    climacheca: 'https://climacheca.vercel.app/'
   }
   const el = e.currentTarget
 
