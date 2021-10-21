@@ -6,6 +6,7 @@ function Sobre() {
   const bloco5 = 'Atualmente, estudo o framework React. Pretendo trabalhar com o desenvolvimento.'
   const bloco6 = 'No tempo livre, gosto de brincar com desenvolvimento de webApps'
 
+
   return (
     <section className='sobre page'>
       <div className='section_descriptor'>sobre</div>
