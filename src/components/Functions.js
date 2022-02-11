@@ -3,7 +3,9 @@ const external = (e) => {
     github: 'https://github.com/heenrik3',
     linkedin: 'https://www.linkedin.com/in/henrik3-dev/',
     vyag: 'https://vyag.vercel.app/',
-    climacheca: 'https://climacheca.vercel.app/'
+    climacheca: 'https://climacheca.vercel.app/',
+    adivinhenumero: 'https://adivinhenumero2.netlify.app',
+    roleodado: 'https://roleodado.netlify.app',
   }
   const el = e.currentTarget
 
