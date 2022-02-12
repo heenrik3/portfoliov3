@@ -7,7 +7,7 @@ const cardsData = [
     description: 'tente adivinhar o número sorteado.',
   },
   {
-    id: 'lanceosdados',
+    id: 'roleodado',
     title: 'Role o dado!',
     description: 'quem chegar a 100 pontos primeiro, vence!',
   },
