@@ -1,5 +1,5 @@
 const external = (e) => {
-  const websites = {
+  const links = {
     github: 'https://github.com/heenrik3',
     linkedin: 'https://www.linkedin.com/in/henrik3-dev/',
     vyag: 'https://vyag.vercel.app/',
@@ -9,6 +9,7 @@ const external = (e) => {
   }
   const el = e.currentTarget
 
-  window.open(`${websites[el.id]}`)
+  window.open(`${links[el.id]}`)
 }
+
 export default external
