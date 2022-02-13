@@ -10,6 +10,9 @@
   flex-direction: column
   justify-content: space-between
 
+  @include respond(phone)
+    width: auto
+
   &:hover .card__overlay
     opacity: 0.8
 

@@ -1,5 +1,5 @@
 const external = (e) => {
-  const links = {
+  const urls = {
     github: 'https://github.com/heenrik3',
     linkedin: 'https://www.linkedin.com/in/henrik3-dev/',
     vyag: 'https://vyag.vercel.app/',
@@ -8,8 +8,9 @@ const external = (e) => {
     roleodado: 'https://roleodado.netlify.app',
   }
   const el = e.currentTarget
+  const url = urls[el.id]
 
-  window.open(`${links[el.id]}`)
+  if (url) window.open(url)
 }
 
 export default external
