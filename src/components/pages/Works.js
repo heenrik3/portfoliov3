@@ -12,6 +12,11 @@ const cardsData = [
     description: 'quem chegar a 100 pontos primeiro, vence!',
   },
   {
+    id: 'notas',
+    title: 'notas',
+    description: 'aplicativo de anotações persistentes',
+  },
+  {
     id: 'vyag',
     title: 'vyag',
     description: 'agencia espacial com viagens para a terra.',
