@@ -26,6 +26,11 @@ const cardsData = [
     title: 'climacheca',
     description: 'consulta o clima atual de uma cidade.',
   },
+  {
+    id: 'calculadora',
+    title: 'calculadora',
+    description: 'Uma calculadora para operações simples.',
+  },
 ]
 
 const cardTemplate = (data, index) => {

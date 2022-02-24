@@ -7,6 +7,7 @@ const external = (e) => {
     climacheca: 'https://climacheca.netlify.app/',
     adivinhenumero: 'https://adivinhenumero2.netlify.app',
     roleodado: 'https://roleodado.netlify.app',
+    calculadora: 'https://calculadora1234.netlify.app/',
   }
   const el = e.currentTarget
   const url = urls[el.id]
