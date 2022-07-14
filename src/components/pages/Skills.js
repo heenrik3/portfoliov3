@@ -2,11 +2,11 @@ const skillsData = [
   { title: 'html5', icon: 'fab fa-html5' },
   { title: 'css3', icon: 'fab fa-css3-alt' },
   { title: 'sass', icon: 'fab fa-sass' },
-  { title: 'javascript', icon: 'fab fa-js' },
+  { title: 'javascript', icon: 'fab fa-js-square' },
   { title: 'react', icon: 'fab fa-react' },
   { title: 'python', icon: 'fab fa-python' },
-  { title: 'git', icon: 'fab fa-git-alt' },
-  { title: 'figma', icon: 'fab fa-figma' },
+  { title: 'linux', icon: 'fab fa-linux' },
+  { title: 'windows', icon: 'fab fa-windows' },
 ]
 
 function skillTemplate(data, index) {

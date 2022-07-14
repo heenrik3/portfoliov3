@@ -2,6 +2,16 @@ import external from '../Functions'
 
 const cardsData = [
   {
+    id: 'notas',
+    title: 'notas',
+    description: 'aplicativo de anotações',
+  },
+  {
+    id: 'climacheca',
+    title: 'climacheca',
+    description: 'consulta o clima atual de uma cidade.',
+  },
+  {
     id: 'adivinhenumero',
     title: 'Adivinhe meu número',
     description: 'tente adivinhar o número sorteado.',
@@ -10,21 +20,6 @@ const cardsData = [
     id: 'roleodado',
     title: 'Role o dado!',
     description: 'quem chegar a 100 pontos primeiro, vence!',
-  },
-  {
-    id: 'notas',
-    title: 'notas',
-    description: 'aplicativo de anotações persistentes',
-  },
-  {
-    id: 'vyag',
-    title: 'vyag',
-    description: 'agencia espacial com viagens para a terra.',
-  },
-  {
-    id: 'climacheca',
-    title: 'climacheca',
-    description: 'consulta o clima atual de uma cidade.',
   },
   {
     id: 'calculadora',
